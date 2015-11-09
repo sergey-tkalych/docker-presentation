@@ -1,0 +1,18 @@
+section.slide#howToBuild
+	div
+		h2 How to build
+		ul
+			li Create Dockerfile and put it to your project
+			li
+				| Run&nbsp;
+				code
+					| docker build -t&nbsp;
+					span IMAGE_NAME&nbsp;
+					| .
+				| &nbsp;command
+		pre
+			code FROM node:0.12.7
+			code ADD . /project
+			code WORKDIR /project
+			code RUN npm install
+			code ENTRYPOINT node app.js

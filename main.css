@@ -1,0 +1,169 @@
+body.list {
+  position: static;
+}
+.full .progress div {
+  background: #384d55;
+}
+.split > div {
+  float: left;
+}
+.split > .right {
+  float: right;
+}
+p.description {
+  font-size: 20px;
+  color: #696969;
+  line-height: 25px;
+  text-indent: initial;
+  margin: 0 0 25px 0;
+}
+.slide ul {
+  margin-bottom: 25px;
+}
+code span {
+  color: #3164ff;
+}
+.center {
+  text-align: center;
+}
+#cover {
+  background: #22b8eb;
+  color: #fff;
+}
+#cover > div {
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+#cover h1 {
+  font-size: 75px;
+  font-family: 'Open Sans Light';
+  margin: 50px 0 0;
+  text-align: center;
+}
+#cover header {
+  background: #fff;
+  text-align: center;
+}
+#cover .logo {
+  display: inline-block;
+  text-decoration: none;
+  background: none;
+}
+#cover .logo img {
+  height: 150px;
+}
+#cover p {
+  text-align: center;
+  margin: 100px 0 0;
+}
+#cover p a {
+  color: #384d55;
+}
+#buildIsDocker img {
+  margin: 70px 0 0;
+}
+#build .split p {
+  margin: 0 0 25px 0;
+}
+#build .split .left {
+  width: 75%;
+}
+#build img {
+  margin: 70px 0 0;
+}
+#vmDifference .diagrams {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#vmDifference .diagrams > div {
+  width: 320px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+#vmDifference .diagrams > div img {
+  width: 100%;
+}
+#ship .left {
+  width: 300px;
+}
+#ship .right {
+  width: 450px;
+}
+#ship h2 + p {
+  margin: 0 0 25px;
+}
+#shipServices div {
+  padding: 0;
+  width: 150px;
+  height: 150px;
+}
+#shipServices .docker {
+  top: 205px;
+  left: 390px;
+  border-radius: 50%;
+  border: 3px solid #22b8eb;
+  width: 250px;
+  height: 250px;
+  background: url("slides/ship-services/docker.jpg") 50% 50% no-repeat;
+  background-size: 200px 200px;
+}
+#shipServices .tutum {
+  top: 60px;
+  left: 100px;
+  background: url("slides/ship-services/tutum.png") 50% 50% no-repeat;
+  background-size: 150px 150px;
+}
+#shipServices .saltstack {
+  top: 100px;
+  left: 700px;
+  height: 94px;
+  background: url("slides/ship-services/saltstask.png") 50% 50% no-repeat;
+  background-size: 150px 94px;
+}
+#shipServices .ansible {
+  top: 400px;
+  left: 140px;
+  background: url("slides/ship-services/ansible.png") 50% 50% no-repeat;
+  background-size: 150px 150px;
+}
+#shipServices .chef {
+  top: 400px;
+  left: 650px;
+  background: url("slides/ship-services/chef.png") 50% 50% no-repeat;
+  background-size: 150px 150px;
+}
+#shareCollaborate .left {
+  width: 500px;
+}
+#shareCollaborate .right {
+  width: 300px;
+}
+#loadBalance2 h2 {
+  margin: 0;
+}
+#loadBalance2 .center {
+  text-align: center;
+}

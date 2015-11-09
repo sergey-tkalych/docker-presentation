@@ -1,0 +1,15 @@
+section.slide#howToRun
+	div
+		h2 How to run
+		p
+			| Just run&nbsp;
+			code docker run
+			| &nbsp;command with parameters
+		p
+			code
+				| docker run -p&nbsp;
+				span HOST_PORT
+				| :
+				span CONTAINER_PORT&nbsp;
+				| -d&nbsp;
+				span IMAGE_NAME
